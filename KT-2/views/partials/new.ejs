@@ -1,0 +1,9 @@
+<h1><%= title %></h1>
+
+<% for (item of data) { %>
+    <div class="new">
+        <h3> <%= item.title %> </h3>
+        <p> <%= item.content %> </p>
+        <a href="<%= item.link %>"></a>Ссылка</a>
+    </div>
+<% } %>

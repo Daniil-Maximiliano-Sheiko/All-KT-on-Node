@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+
+            color: #fffcf2;
+            background-color: #252422;
+        }
+
+        body {
+            margin: 40px auto;
+            width: 320px;
+        }
+
+        #news-selector>div {
+            margin-bottom: 10px;
+            
+            display: flex;
+            justify-content: space-between;
+        }
+        #news-selector>div:last-of-type {
+            margin-bottom: 0;
+        }
+
+        input, select, button {
+            outline: none;
+            border: none;
+            background-color: revert;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            display: block;
+        }
+
+        .new {
+            margin-bottom: 100px;
+        }
+        .new:last-of-type {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+    
+<body>
+    <%- include(partial); %>
+</body>
+
+</html>
